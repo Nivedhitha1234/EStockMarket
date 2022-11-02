@@ -92,10 +92,7 @@ namespace CompanyService.Controllers
             {
                 return StatusCode(400, ex.Message);
             }
-            
-            //reurn JsonSerializer.Serialize(result);
-            //return Task.FromResult(result);
-            //return await _companyCollection.Find(Builders<CompanyDetails>.Filter.Empty).ToListAsync();
+          
         }
         
         [HttpGet("{companycode}")]
